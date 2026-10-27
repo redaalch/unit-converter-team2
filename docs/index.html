@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter | Team 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 24px;
+            line-height: 1.6;
+            color: #243047;
+            background: #f5f7fb;
+        }
+
+        header {
+            background: #243b64;
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        section {
+            background: white;
+            margin-top: 20px;
+            padding: 22px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #243b64;
+        }
+
+        code {
+            background: #edf0f6;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+
+        footer {
+            margin-top: 25px;
+            color: #5c667a;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Unit Converter</h1>
+        <p>Convert lengths between meters, kilometers, and miles.</p>
+    </header>
+
+    <section>
+        <h2>About the Project</h2>
+        <p>
+            This project provides length conversion functionality
+            with input validation to handle invalid units,
+            negative lengths, and non-finite values.
+        </p>
+        <p><strong>Theme:</strong> Unit Converter</p>
+    </section>
+
+    <section>
+        <h2>Team Members</h2>
+        <ul>
+            <li>Reda Alalach</li>
+            <li>Hajar Ouaghad</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Implemented Features</h2>
+        <ul>
+            <li>Convert meters to kilometers and miles.</li>
+            <li>Convert kilometers to meters and miles.</li>
+            <li>Convert miles to meters and kilometers.</li>
+            <li>Validate units and reject negative or non-finite lengths.</li>
+            <li>Automated unit tests using pytest.</li>
+            <li>Continuous integration with GitHub Actions.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Getting Started</h2>
+        <p>Clone the repository and enter its directory:</p>
+        <p><code>git clone https://github.com/redaalch/unit-converter-team2.git</code></p>
+        <p><code>cd unit-converter-team2</code></p>
+
+        <p>Install the project dependencies:</p>
+        <p><code>python3 -m pip install -r requirements.txt</code></p>
+
+        <p>Run the automated tests:</p>
+        <p><code>python3 -m pytest</code></p>
+
+        <p>
+            The conversion functions are available in
+            <code>unit_converter/length.py</code>.
+        </p>
+    </section>
+
+    <footer>
+        <p>Unit Converter </p>
+    </footer>
+</body>
+</html>
