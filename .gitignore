@@ -1,0 +1,18 @@
+# Python bytecode and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
