@@ -2,7 +2,7 @@
 
 A Python unit converter for temperature and length, built for Assignment 2: GitHub Collaboration & Automation.
 
-Project status: Development in progress.
+Project status: Temperature conversion completed.
 
 ## Team and feature plan
 
