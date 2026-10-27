@@ -1,11 +1,19 @@
 
+"""Convert lengths between meters, kilometers, and miles."""
+
+from math import isfinite
+
+
 def convert_length(value, from_unit, to_unit):
-    """Convert a non-negative length between m, km, and mi."""
+    """Convert a finite, non-negative length between m, km, and mi."""
     conversion_factors = {
         "m": 1,
         "km": 1000,
         "mi": 1609.344,
     }
+
+    if not isfinite(value):
+        raise ValueError("Length must be a finite number")
 
     if value < 0:
         raise ValueError("Length cannot be negative")

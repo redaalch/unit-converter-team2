@@ -32,3 +32,9 @@ def test_invalid_source_unit_raises_error():
 
 def test_same_unit_returns_same_value():
     assert convert_length(42, "km", "km") == pytest.approx(42)
+
+
+@pytest.mark.parametrize("value", [float("nan"), float("inf"), float("-inf")])
+def test_non_finite_length_raises_error(value):
+    with pytest.raises(ValueError, match="finite"):
+        convert_length(value, "m", "km")
