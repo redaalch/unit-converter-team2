@@ -63,4 +63,11 @@ Member B uses `feature/length` instead. Push the feature branch and open a Pull 
 
 ## Project page
 
-The GitHub Pages URL will be added here after the project page is published and verified.
+GitHub Pages: [https://redaalch.github.io/unit-converter-team2/](https://redaalch.github.io/unit-converter-team2/).
+
+## Group report
+
+The report covers both converters, 39 pytest cases, peer reviews, the controlled README conflict, CI, and the GitHub Pages deployment.
+
+- [Final group report (PDF)](reports/Assignment_2_Report_Reda_Hajar.pdf)
+- [Editable group report (Word)](reports/Assignment_2_Report_Reda_Hajar.docx)
